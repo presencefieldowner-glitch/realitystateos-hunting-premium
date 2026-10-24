@@ -1,0 +1,10 @@
+{
+  "name": "realitystateos-hunting-premium",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "RealityStateOS Hunting Premium Bundle storefront with PayPal Checkout",
+  "scripts": { "start": "node server.js", "dev": "node --watch server.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": { "dotenv": "^16.4.7", "express": "^4.21.2", "helmet": "^8.0.0" }
+}
